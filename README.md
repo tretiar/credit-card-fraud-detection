@@ -49,7 +49,7 @@ The dataset is not included in this repository. Download `creditcard.csv` from K
 ## Setup
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/tretiar/credit-card-fraud-detection
 cd credit-card-fraud-detection
 python -m venv .venv
 ```
