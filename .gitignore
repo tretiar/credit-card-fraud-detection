@@ -1,0 +1,23 @@
+# Data and generated artifacts
+creditcard.csv
+data/*.csv
+!data/.gitkeep
+
+# Local academic source notebooks
+UM_L8_*.ipynb
+UM_Projekt_*.ipynb
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+.mplconfig/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
