@@ -33,6 +33,14 @@ The Wilcoxon signed-rank test was applied to paired PR-AUC values from the 10-fo
 .
 ├── notebooks/
 │   └── credit_card_fraud_detection.ipynb
+├── src/
+│   ├── config.py
+│   ├── features.py
+│   ├── metrics.py
+│   └── models.py
+├── tests/
+│   ├── test_features.py
+│   └── test_metrics.py
 ├── data/
 │   └── .gitkeep
 ├── README.md
@@ -68,6 +76,14 @@ pip install -r requirements.txt
 ```
 
 Then open `notebooks/credit_card_fraud_detection.ipynb` in Jupyter Notebook or VS Code and run the cells from top to bottom.
+
+The notebook contains the analysis and experiments; reusable preprocessing, metric and model-building code is stored in `src/`.
+
+Run the unit tests with:
+
+```bash
+python -m pytest
+```
 
 ## Methodology
 
